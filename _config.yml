@@ -1,6 +1,4 @@
-title: Benjamin Yi's Portfolio Site
-url: "https://benjyi.github.io"
-baseurl: ""
+title: Benjamin Yi
 
 markdown: kramdown
 #ins_logo: "./bits-logo.png"
@@ -17,8 +15,8 @@ sass:
 
 nav:
  - name: "Projects"
-   link: "/projects/"
+   link: "/projects"
  - name: "Resume"
-   link: "/resume.pdf/"
+   link: "/resume.pdf"
  - name: "Contact"
-   link: "/contact/"
+   link: "/contact"
