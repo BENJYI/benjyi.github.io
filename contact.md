@@ -3,24 +3,16 @@ layout: default
 is_contact: true
 ---
 
-* Email: [foo@xyz.com](mailto:foo@xyz.com)
+* Email: [bentaebox@gmail.com](mailto:bentaebox@gmail.com)
 
-* Phone: [+91-123123](tel:+91-123123)
+* Phone: [+1-6467840102](tel:+1-6467840102)
 
 ---
 
 ## Mailing Address
 
-> 221B, Baker Street
+> 193 Bay 17th Street
 >
-> London
+> Brooklyn, New York 11214
 >
-> United Kingdom
-
----
-
-## Social
-
-1. [Facebook](#)
-2. [Twitter](#)
-3. [Google+](#)
+> USA
