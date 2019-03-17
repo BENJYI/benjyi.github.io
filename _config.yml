@@ -7,7 +7,7 @@ tracking_id: #
 
 footer: yes
 footer_url: "https://github.com/benjyi"
-footer_text: "Ben's Portfolio Site"
+footer_text: "Benjamin "
 
 sass:
     style: compressed
