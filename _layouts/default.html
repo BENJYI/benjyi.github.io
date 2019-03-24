@@ -59,7 +59,7 @@
             {% if site.ins_logo %}
                 <img id="ins-logo" src="{{ site.ins_logo }}" />
             {% endif %}
-            <a id="author-name" class="alignable pull-left" href="{{ site.baseurl }}">{{ site.title }}</a>
+            <a id="author-name" class="alignable pull-left" href="{{ site.url }}">{{ site.title }}</a>
             <ul id="navlist" class="alignable pull-right navbar-ul">
                 {% for x in site.nav %}
                     {% if x.name == "Resume" %}
@@ -85,7 +85,13 @@
                 {% if site.footer == true %}
                     <hr />
                     <p style="text-align: center; margin-bottom: 10px">
-                    <a href="{{ site.footer_url }}" style="color: black"><small>{{ site.footer_text }}</small></a>
+                    <a href="{{ site.footer_url }}" style="color: black; text-decoration: none">
+                      <img class="medium-icon" src="./images/github-logo.png" />
+                    </a>
+                    <br>
+                    <a href="{{ site.footer_url }}" style="color: black">
+                      <small>github | BENJYI  </small>
+                    </a>
                     </p>
                 {% endif %}
             </div>
