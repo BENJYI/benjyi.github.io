@@ -1,5 +1,6 @@
 ---
 layout: default
+title: "Contact Me"
 is_contact: true
 ---
 

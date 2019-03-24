@@ -1,5 +1,6 @@
 ---
 layout: default
+title: "Projects"
 ---
 
 ## JPM Chase Code for Good Hackathon - iOS Mobile Application
