@@ -13,6 +13,8 @@ sass:
     sass_dir: _sass
 
 nav:
+ - name: "About"
+   link: "/"  
  - name: "Projects"
    link: "/projects"
  - name: "Resume"
