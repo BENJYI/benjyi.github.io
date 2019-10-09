@@ -97,6 +97,12 @@ Repository: [https://github.com/CISC3320SP19/cisc3320proj3-jabytz](https://githu
 
 The program created for this project measured the cost of a context switch by recording the time it took for two processors to calculate the sum of integers in a very large array. The inspiration for this project was a similar research done by Li, Ding, and Shen, whose research can be found in the USENIX database <a href="https://www.usenix.org/legacy/events/expcs07/papers/2-li.pdf">here</a>. Using the sched and pthread library, we were able to observe the advantages of multicore processing as the workload increased, while observing performance losses when workload decreased when comparing to work done by a single processor.
 
+<br/>
+
+---
+
+<br/>
+
 ## CISC 3171 Software Engineering Group Project
 ## Too Many Cooks
 
@@ -138,3 +144,5 @@ This group project was an extremely valuable experience as I was required to wor
     </div>
   </div>
 </div>
+
+<br/>
