@@ -25,7 +25,6 @@ A full set of Mahjong tiles are laid out on the board as a 16x9 grid. The player
 </div>
 
 <br/>
-<br/>
 
 <div style="width:100%;text-align:center;">
   <div style="width:80%;display:inline-block;text-align:center">
@@ -34,13 +33,13 @@ A full set of Mahjong tiles are laid out on the board as a 16x9 grid. The player
     </div>
     <br/>
     <div style="width:75%;display:inline-block">
-      <div class="project-preview" style="width:31%;">
+      <div class="project-preview" style="width:25%;">
         <img class="test-img" src="./images/mockup-1.png" onclick="myFunction(this);">
       </div>
-      <div class="project-preview" style="width:31%;margin-left:2%">
+      <div class="project-preview" style="width:25%;margin-left:2%">
         <img class="test-img" src="./images/mockup-2.png" onclick="myFunction(this);">
       </div>
-      <div class="project-preview" style="width:31%;margin-left:2%">
+      <div class="project-preview" style="width:25%;margin-left:2%">
         <img class="test-img" src="./images/mockup-3.png" onclick="myFunction(this);">
       </div>
     </div>
@@ -66,16 +65,16 @@ This was a final team project for my Software Engineering course. The goal of th
     </div>
     <br/>
     <div>
-      <div class="project-preview" style="width:23%;">
+      <div class="project-preview" style="width:17%;">
         <img class="test-img" src="./images/tmc-mockup-1.png" onclick="myFunction2(this);">
       </div>
-      <div class="project-preview" style="width:23%;margin-left:2%">
+      <div class="project-preview" style="width:17%;margin-left:1%">
         <img class="test-img" src="./images/tmc-mockup-2.png" onclick="myFunction2(this);">
       </div>
-      <div class="project-preview" style="width:23%;margin-left:2%">
+      <div class="project-preview" style="width:17%;margin-left:1%">
         <img class="test-img" src="./images/tmc-mockup-3.png" onclick="myFunction2(this);">
       </div>
-      <div class="project-preview" style="width:23%;margin-left:2%">
+      <div class="project-preview" style="width:17%;margin-left:1%">
         <img class="test-img" src="./images/tmc-mockup-4.png" onclick="myFunction2(this);">
       </div>
     </div>
