@@ -16,6 +16,17 @@ A full set of Mahjong tiles are laid out on the board as a 16x9 grid. The player
 
 <br/>
 
+<div style="width:100%;text-align:center">
+  <div style="width:80%;display:inline-block;">
+    <video style="width:100%;outline:none;" autoplay mute controls="controls">
+      <source src="./images/gemini-test.mp4" type="video/mp4">
+    </video>
+  </div>
+</div>
+
+<br/>
+<br/>
+
 <div style="width:100%;text-align:center;">
   <div style="width:80%;display:inline-block;text-align:center">
     <div>
