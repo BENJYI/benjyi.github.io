@@ -1,9 +1,7 @@
 ---
 layout: default
-title: Welcome!
+title: Benjamin Yi
 ---
-
-## About Me
 
 <img class="profile-picture" src="benport.png">
 
