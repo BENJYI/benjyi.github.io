@@ -5,44 +5,66 @@ title: "Projects"
 
 <br/>
 
-## Gemini - iOS Mobile Game
+## Gemini, Personal Project
 
 Repository: [https://github.com/BENJYI/Gemini/](https://github.com/BENJYI/Gemini)
 
-A full set of Mahjong tiles are laid out on the board as a 16x9 grid. The player must match two identical tiles given the following set of rules:
-1. Two tiles can be matched if they are the same characters and no other tiles are in between the two tiles. Adjacent tiles can always be matched.
-2. If a tile a matched, they are removed from the board.
-3. A tile can be used as a focal point to push a group of tiles through empty space on the board. If the tile can be matched after displacement, the tiles are given their new positions. Otherwise, the displacement is reversed.
+Gemini was inspired by a close friend who claims it originated from his hometown. This puzzle game has a slow tempo similar to a game of Solitaire. 
+The state of the board starts with all 144 Mahjong tiles laid out on a 16-by-9 grid, and the goal is to match two identical pieces every move. Any two tiles that are matched are removed from the board. The goal of the game is to empty the board, and the rules are as follows:
+1. Choose a tile.
+2. Move the tile and all leading tiles towards an empty area. We can also choose not to move at all.
+3. At the end of the move, if the selected tile can "see" an identical piece in any of four directions, then it can match with that piece. "Seeing" means no tiles exists between the selected tile and its twin. This means any two adjacent tiles that are identical can be matched.
+4. If no identical tiles are visible, then the movement is invalid and is reverted.
 
-<br/>
-
-<div style="width:100%;text-align:center">
-  <div style="width:80%;display:inline-block;">
-    <video style="width:100%;outline:none;" autoplay mute controls="controls">
-      <source src="./images/gemini-test.mp4" type="video/mp4">
-    </video>
+<div style="text-align:center">
+  <div style="display:inline-block">
+    <p style="font-size:1.5em;color:rgba(218, 236, 242, 0.5)">
+    • • •
+    </p>
   </div>
 </div>
-
-<br/>
 
 <div style="width:100%;text-align:center;">
   <div style="width:80%;display:inline-block;text-align:center">
     <div>
       <img id="project-img" src="./images/mockup-1.png">
     </div>
+    <div>
+      <p id="project-text">
+        To start, we find a pair of identical adjacent tiles to create some space.
+      </p>
+    </div>
     <br/>
-    <div style="width:75%;display:inline-block">
-      <div class="project-preview" style="width:25%;">
-        <img class="test-img" src="./images/mockup-1.png" onclick="myFunction(this);">
+    <div>
+      <div class="project-preview" style="width:17%;">
+        <img class="test-img" src="./images/mockup-1.png" onclick="myFunction(this,1);">
       </div>
-      <div class="project-preview" style="width:25%;margin-left:2%">
-        <img class="test-img" src="./images/mockup-2.png" onclick="myFunction(this);">
+      <div class="project-preview" style="width:17%;margin-left:1%">
+        <img class="test-img" src="./images/mockup-2.png" onclick="myFunction(this,2);">
       </div>
-      <div class="project-preview" style="width:25%;margin-left:2%">
-        <img class="test-img" src="./images/mockup-3.png" onclick="myFunction(this);">
+      <div class="project-preview" style="width:17%;margin-left:1%">
+        <img class="test-img" src="./images/mockup-3.png" onclick="myFunction(this,3);">
+      </div>
+      <div class="project-preview" style="width:17%;margin-left:1%">
+        <img class="test-img" src="./images/mockup-4.png" onclick="myFunction(this,4);">
       </div>
     </div>
+  </div>
+</div>
+
+<div style="text-align:center">
+  <div style="display:inline-block">
+    <p style="font-size:1.5em;color:rgba(218, 236, 242, 0.5)">
+    • • •
+    </p>
+  </div>
+</div>
+
+<div style="width:100%;text-align:center">
+  <div style="width:90%;display:inline-block;">
+    <video style="width:100%;outline:none;" autoplay mute controls="controls">
+      <source src="./images/gemini-test.mp4" type="video/mp4">
+    </video>
   </div>
 </div>
 
