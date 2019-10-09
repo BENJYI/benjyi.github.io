@@ -3,6 +3,7 @@ layout: default
 title: "Projects"
 ---
 
+<br/>
 
 ## Gemini - iOS Mobile Game
 
@@ -13,12 +14,33 @@ A full set of Mahjong tiles are laid out on the board as a 16x9 grid. The player
 2. If a tile a matched, they are removed from the board.
 3. A tile can be used as a focal point to push a group of tiles through empty space on the board. If the tile can be matched after displacement, the tiles are given their new positions. Otherwise, the displacement is reversed.
 
-<img class="test-img" src="./images/mockup-1.png">
-<img class="test-img" src="./images/mockup-2.png">
-<img class="test-img" src="./images/mockup-3.png">
+<br/>
 
+<div style="width:100%;text-align:center;">
+  <div style="width:80%;display:inline-block;text-align:center">
+    <div>
+      <img id="project-img" src="./images/mockup-1.png">
+    </div>
+    <br/>
+    <div style="width:75%;display:inline-block">
+      <div class="project-preview" style="width:31%;">
+        <img class="test-img" src="./images/mockup-1.png" onclick="myFunction(this);">
+      </div>
+      <div class="project-preview" style="width:31%;margin-left:2%">
+        <img class="test-img" src="./images/mockup-2.png" onclick="myFunction(this);">
+      </div>
+      <div class="project-preview" style="width:31%;margin-left:2%">
+        <img class="test-img" src="./images/mockup-3.png" onclick="myFunction(this);">
+      </div>
+    </div>
+  </div>
+</div>
+
+<br/>
 
 ---
+
+<br/>
 
 ## Too Many Cooks - Web Application
 
@@ -26,14 +48,34 @@ Repository: [https://github.com/BENJYI/too_many_cooks](https://github.com/BENJYI
 
 This was a final team project for my Software Engineering course. The goal of the project was to display practical knowledge of entity-relationship and use case models by creating a food delivery system with proper documentation. To create both ends, we used Rails to scaffold the project. The final product had a login system with authentication allowing a user to function as a customer, chef, delivery personnel, or a manager, each having unique functionality - customers can order food, chefs can produce the orders, delivery personnel can delivery the orders, and managers can hire or fire employees. For documentation, we wrote a system design report, which is viewable in the repository or <a href="https://github.com/BENJYI/too_many_cooks/blob/master/SDR.pdf">here</a>.
 
-<img class="test-img" src="./images/tmc-mockup-1.png">
-<img class="test-img" src="./images/tmc-mockup-2.png">
-<img class="test-img" src="./images/tmc-mockup-3.png">
-<img class="test-img" src="./images/tmc-mockup-4.png">
+<div style="width:100%;text-align:center;">
+  <div style="width:80%;display:inline-block;text-align:center">
+    <div>
+      <img id="project-img2" src="./images/tmc-mockup-1.png">
+    </div>
+    <br/>
+    <div>
+      <div class="project-preview" style="width:23%;">
+        <img class="test-img" src="./images/tmc-mockup-1.png" onclick="myFunction2(this);">
+      </div>
+      <div class="project-preview" style="width:23%;margin-left:2%">
+        <img class="test-img" src="./images/tmc-mockup-2.png" onclick="myFunction2(this);">
+      </div>
+      <div class="project-preview" style="width:23%;margin-left:2%">
+        <img class="test-img" src="./images/tmc-mockup-3.png" onclick="myFunction2(this);">
+      </div>
+      <div class="project-preview" style="width:23%;margin-left:2%">
+        <img class="test-img" src="./images/tmc-mockup-4.png" onclick="myFunction2(this);">
+      </div>
+    </div>
+  </div>
+</div>
 
+<br/>
 
 ---
 
+<br/>
 
 ## JPM Chase Code for Good Hackathon - iOS Mobile Application
 
