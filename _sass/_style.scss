@@ -16,7 +16,7 @@ body {
 }
 a {
     text-decoration: none;
-    color: $accent;
+    color: #c9c8a3;
 }
 a:hover {
     text-decoration: underline;
@@ -34,7 +34,7 @@ hr {
 
 #author-name {
     font-size: 30px;
-    color: #272727;
+    color: #c9c8a3;
     display: inline-block;
 }
 .navbar {
@@ -138,6 +138,12 @@ hr {
 	#navlist li.nav-list {
 		margin: 0;
 	}
+}
+
+/* Project Page */
+.project-preview {
+    float:left;
+    border: solid 1px rgba(218, 236, 242,0.4);
 }
 
 @import "typography";

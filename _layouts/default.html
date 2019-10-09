@@ -1,5 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
+<!-- {% if site.environment == "production" %} -->
+    <!-- <script src="//localhost:35729/livereload.js"></script> -->
+<!-- {% else %} -->
+    <script src="{{ site.baseurl }}/scripts.js"></script>
+<!-- {% endif %} -->
 <head>
     <title>Benjamin Yi | {% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
 
@@ -53,7 +58,7 @@
         <meta name="twitter:image" content="{{ site.profile_picture }}">
     {% endif %}
 </head>
-<body style="background-color:rgb(20,20,30);color:rgb(235,235,255)">
+<body style="background-color:#112024;color:#daecf2">
     <div class="wrapper">
         <div class="navbar container">
             {% if site.ins_logo %}
@@ -62,15 +67,8 @@
             <a id="author-name" class="alignable pull-left" href="{{ site.url }}">{{ site.title }}</a>
             <ul id="navlist" class="alignable pull-right navbar-ul">
                 {% for x in site.nav %}
-                    {% if x.name == "Resume" %}
-                        <li class="alignable pull-left nav-list"><a target="_blank" href="{{ x.link }}">{{ x.name }}</a>
-                    {% else %}
-                        <li class="alignable pull-left nav-list"><a href="{{ x.link }}">{{ x.name }}</a>
-                    {% endif %}
-                    {% if forloop.last == false %}
-                        /
-                    {% endif %}
-                        </li>
+                    <li class="alignable pull-left nav-list"><a href="{{ x.link }}">{{ x.name }}</a>
+                    </li>
                 {% endfor %}
             </ul>
         </div>
