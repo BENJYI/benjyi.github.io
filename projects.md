@@ -9,9 +9,7 @@ title: "Projects"
 
 Repository: [https://github.com/BENJYI/Gemini/](https://github.com/BENJYI/Gemini)
 
-Gemini was inspired by a close friend who claims it originated from his hometown. This puzzle game has a slow tempo similar to a game of Solitaire. 
-The state of the board starts with all 144 Mahjong tiles laid out on a 16-by-9 grid, and the goal is to match two identical pieces every move. Any two tiles that are matched are removed from the board. The goal of the game is to empty the board, and the rules are as follows:
-
+This game was inspired by a close friend who introduced me to this game while playing a game of Mahjong. Gemini is a puzzle game where the goal is to match two identical pieces per move until the board is emptied. The basic gameplay is as follows:
 1. Choose a tile.
 2. Move the tile and all leading tiles towards an empty area. We can also choose not to move at all.
 3. At the end of the move, if the selected tile can "see" an identical piece in any of four directions, then it can match with that piece. "Seeing" means no tiles exists between the selected tile and its twin. This means any two adjacent tiles that are identical can be matched.
