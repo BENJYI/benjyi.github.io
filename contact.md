@@ -20,17 +20,3 @@ is_contact: true
 >
 
 <br/>
-
----
-
-<br/>
-
-## Mailing Address
-
-> 193 Bay 17th Street
->
-> Brooklyn, New York 11214
->
-> USA
-
-<br/>
