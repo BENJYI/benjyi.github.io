@@ -26,7 +26,12 @@
         {% assign url = site.url | append: site.baseurl | append: page.url %}
     {% endif %}
     <meta name="description" content="{{ desc }}">
-    <link href='https://fonts.googleapis.com/css?family=Inconsolata:400,700' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Karla&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet" type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Inconsolata:400,700' rel='stylesheet'>
     <link rel="alternate" type="application/rss+xml" title="{{ site.title }} RSS" href="/feed.xml" />
     <link rel="stylesheet" href="{{ site.baseurl }}/css/main.css">
     {% if site.favicon %}
@@ -58,48 +63,52 @@
         <meta name="twitter:image" content="{{ site.profile_picture }}">
     {% endif %}
 </head>
-<body style="background-color:#112024;color:#daecf2">
+<body>
     <div class="wrapper">
-        <div class="navbar container">
-            {% if site.ins_logo %}
-                <img id="ins-logo" src="{{ site.ins_logo }}" />
-            {% endif %}
-            <a id="author-name" class="alignable pull-left" href="{{ site.url }}">{{ site.title }}</a>
-            <ul id="navlist" class="alignable pull-right navbar-ul">
-                <li class="alignable pull-left nav-list"><a href="/">About</a>
-                </li>
-                <li class="alignable pull-left nav-list" style="cursor:ponter;color:#daecf2">•</li>
-                <li class="alignable pull-left nav-list"><a href="/projects">Projects</a>
-                </li>
-                <li class="alignable pull-left nav-list" style="cursor:ponter;color:#daecf2">•</li>
-                <li class="alignable pull-left nav-list"><a href="/resume">Resume</a>
-                </li>
-                <li class="alignable pull-left nav-list" style="cursor:ponter;color:#daecf2">•</li>
-                <li class="alignable pull-left nav-list"><a href="/contact">Contact</a>
-                </li>
-            </ul>
-        </div>
-        <div style="clear:both"></div>
-        <hr>
-        {% if page.is_contact == true %}
-            <div class="container content contact">
-        {% else %}
-            <div class="container content">
-        {% endif %}
-                {{ content }}
-                {% if site.footer == true %}
-                    <hr />
-                    <p style="text-align: center; margin-bottom: 10px">
-                    <a href="{{ site.footer_url }}" style="color: black; text-decoration: none">
-                      <img class="medium-icon" src="./images/github-logo.png" />
-                    </a>
-                    <br>
-                    <a href="{{ site.footer_url }}" style="color: black">
-                      <small>github | BENJYI  </small>
-                    </a>
-                    </p>
+        <div class="navbar" style="padding:0;width:100%;background-color: #222222">
+            <div class="navbar container" >
+                {% if site.ins_logo %}
+                    <img id="ins-logo" src="{{ site.ins_logo }}" />
                 {% endif %}
+                <a id="author-name" class="alignable pull-left" href="{{ site.url }}">{{ site.title }}</a>
+                <ul id="navlist" class="alignable pull-right navbar-ul">
+                    <li class="alignable pull-left nav-list"><a class="panel-item" href="/">About</a>
+                    </li>
+                    <li class="panel-item alignable pull-left nav-list">•</li>
+                    <li class="alignable pull-left nav-list"><a class="panel-item" href="/projects">Projects</a>
+                    </li>
+                    <li class="panel-item alignable pull-left nav-list">•</li>
+                    <li class="alignable pull-left nav-list"><a class="panel-item" href="/contact">Contact</a>
+                    </li>
+                    <li class="panel-item alignable pull-left nav-list">•</li>
+                    <li class="alignable pull-left nav-list"><a class="panel-item" href="/resume">Resume</a>
+                    </li>
+                </ul>
             </div>
+            <div style="clear:both"></div>
+        </div> 
+            {% if page.is_contact == true %}
+                <div class="container content contact">
+            {% else %}
+                <div class="container content">
+            {% endif %}
+                    {{ content }}
+                    <hr />
+                    <br />
+                    <br />
+                    {% if site.footer == false %}
+                        <hr />
+                        <p style="text-align: center; margin-bottom: 10px">
+                        <a href="{{ site.footer_url }}" style="color: black; text-decoration: none">
+                        <img class="medium-icon" src="./images/github-logo.png" />
+                        </a>
+                        <br>
+                        <a href="{{ site.footer_url }}" style="color: black">
+                        <small>github | BENJYI  </small>
+                        </a>
+                        </p>
+                    {% endif %}
+                </div>
     </div>
     {% if site.tracking_id %}
         <script>

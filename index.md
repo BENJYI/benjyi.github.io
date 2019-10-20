@@ -3,9 +3,9 @@ layout: default
 title: Benjamin Yi
 ---
 
-<img class="profile-picture" src="benport.png">
+<!-- <img class="profile-picture" src="benport.png"> -->
 
-Hello,
+## Hello!
 
 I am an undergraduate at Brooklyn College and expect to graduate with a B.S. in Computer Science by January 2020. The curriculum has allowed me develop a strong understanding of data structures and algorithms with the use of Java and C++, which I have further reinforced by practicing problem solving in Python using an online platform.
 

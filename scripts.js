@@ -6,13 +6,13 @@ function myFunction(imgs,id) {
   projectImg.src = imgs.src;
   var projectText =  document.getElementById("project-text");
   if (id == 1) {
-    projectText.innerHTML = "To start, we find a pair of identical adjacent tiles to create some space."
+    projectText.innerHTML = "Start by matching adjacent pairs of tiles."
   } else if (id == 2) {
-    projectText.innerHTML = "Now that we have some clearance, we can start shifting tiles around the board."
+    projectText.innerHTML = "Shifting tiles around the board and match."
   } else if (id == 3) {
-    projectText.innerHTML = "Notice that any tiles caught between the movement will be pushed as well."
+    projectText.innerHTML = "Any tiles between will be also be pushed."
   } else if (id == 4) {
-    projectText.innerHTML = "If we can create a move that results in match, then the board's state changes."
+    projectText.innerHTML = "If a move is valid, the board state changes."
   }
 }
 
@@ -22,4 +22,15 @@ function myFunction2(imgs) {
   // Get the image text
   // Use the same src in the expanded image as the image being clicked on from the grid
   projectImg.src = imgs.src;
+}
+
+function toggleProjectDetails(id, i) {
+  var pd = document.getElementById("project-detail-"+i);
+  var toggled = window.getComputedStyle(pd).display;
+
+  if (toggled == "none") {
+    pd.style.display = "block";
+  } else {
+    pd.style.display = "none";
+  }
 }
