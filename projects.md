@@ -129,8 +129,8 @@ title: "Projects"
 
 <div class="project-detail" id="project-detail-3">
   <div style="display:block;text-align:center">
-    <a style="margin:0 auto" href="https://github.com/CISC3320SP19/cisc3320proj3-jabytz">
-      Project URL (Private)
+    <a style="margin:0 auto" href="https://github.com/BENJYI/cisc3320-project3-REDACTED">
+      Project URL (Redacted)
       <img style="margin-right:0.25em;top:50%;transform:translateY(20%);position:relative;width:1.4em;height:1.4em;" src="./images/github-logo.png"/>
     </a>
   </div>
