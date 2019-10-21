@@ -64,10 +64,9 @@ title: "Projects"
   </div>
 
   <div style="width:100%;text-align:center">
-    <div style="width:90%;display:inline-block;">
-      <video style="width:100%;outline:none;" autoplay mute controls="controls">
-        <source src="./images/gemini-test.mp4" type="video/mp4">
-      </video>
+    <h3 style="text-decoration:underline">Demo - iOS (Simulator)</h3>
+    <div class="demo-video">
+      <object data="https://www.youtube.com/embed/e-fX8VSi2xM"></object>
     </div>
   </div>
 </div>
