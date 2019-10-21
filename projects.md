@@ -5,7 +5,11 @@ title: "Projects"
 <div class="project-header-container" onclick="toggleProjectDetails(this, 1);">
   <div style="width:90%;float:left">
     <div class="project-header-top">Gemini</div>
-    <div class="project-header-bottom">PERSONAL PROJECT</div>
+    <div style="display:inline-block">
+      <div class="project-type project-header-bottom">PERSONAL PROJECT</div>
+      <div class="swift project-header-bottom">Swift</div>
+      <div class="xcode project-header-bottom">Xcode</div>
+    </div>
   </div>
   <div style="width:10%;float:left">
     <img id="project-toggle-button-1" class="project-toggle-button" style="width:24px" src="./images/collapse-icon.png"/>
@@ -82,7 +86,11 @@ title: "Projects"
 <div class="project-header-container" onclick="toggleProjectDetails(this, 2);">
   <div style="width:90%;float:left">
     <div class="project-header-top">JPMorgan Chase, Code For Good</div>
-    <div class="project-header-bottom">HACKATHON</div>
+    <div style="display:inline-block">
+      <div class="project-type project-header-bottom">HACKATHON</div>
+      <div class="objc project-header-bottom">Objective-C</div>
+      <div class="xcode project-header-bottom">Xcode</div>
+    </div>
   </div>
   <div style="width:10%;float:left">
     <img id="project-toggle-button-2" class="project-toggle-button" style="width:24px" src="./images/collapse-icon.png"/>
@@ -108,7 +116,11 @@ title: "Projects"
 <div class="project-header-container" onclick="toggleProjectDetails(this, 3);">
   <div style="width:90%;float:left">
     <div class="project-header-top">CISC 3320, Operating Systems</div>
-    <div class="project-header-bottom">GROUP PROJECT</div>
+    <div style="display:inline-block">
+      <div class="project-type project-header-bottom">GROUP PROJECT</div> 
+      <div class="clang project-header-bottom">C</div>
+      <div class="unix project-header-bottom">UNIX</div>
+    </div>
   </div>
   <div style="width:10%;float:left">
     <img id="project-toggle-button-3" class="project-toggle-button" style="width:24px" src="./images/collapse-icon.png"/>
@@ -130,7 +142,11 @@ title: "Projects"
 <div class="project-header-container" onclick="toggleProjectDetails(this, 4)  ;">
   <div style="width:90%;float:left">
     <div class="project-header-top">CISC 3171, Software Engineering</div>
-    <div class="project-header-bottom">GROUP PROJECT</div>
+    <div style="display:inline-block">
+      <div class="project-type project-header-bottom">GROUP PROJECT</div> 
+      <div class="ruby project-header-bottom">Ruby on Rails</div>
+      <div class="dbm project-header-bottom">PostgreSQL</div>
+    </div>
   </div>
   <div style="width:10%;float:left">
     <img id="project-toggle-button-4" class="project-toggle-button" style="width:24px" src="./images/collapse-icon.png"/>

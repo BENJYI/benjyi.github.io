@@ -150,6 +150,7 @@ hr {
     cursor:pointer;
     overflow:auto;
     margin:0.5em auto;
+    margin-top:1.5em;
     padding:0.5em 0;
 }
 
@@ -166,6 +167,46 @@ hr {
     display: inline-block;
     background-color: #dedede;
     color: $panel-color;
+}
+
+.project-type {
+    background-color: $panel-color;
+    color: $panel-text-color;
+}
+
+.swift {
+    background-color: #DE5C35;
+    color: white;
+}
+
+.objc {
+    background-color: #DE5C35;
+    color: white;
+}
+
+.xcode {
+    background-color: #5CA0FB;
+    color: white;
+}
+
+.clang {
+    background-color: #EEBD30;
+    color: white;
+}
+
+.ruby {
+    background-color: #AE0000;
+    color: white;
+}
+
+.dbm {
+    background-color: #563681;
+    color: white;
+}
+
+.unix {
+    background-color: black;
+    color: #7ACC45;
 }
 
 /* Video */
