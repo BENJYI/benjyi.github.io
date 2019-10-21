@@ -27,10 +27,13 @@ function myFunction2(imgs) {
 function toggleProjectDetails(id, i) {
   var pd = document.getElementById("project-detail-"+i);
   var toggled = window.getComputedStyle(pd).display;
+  var icon = document.getElementById("project-toggle-button-"+i);
 
   if (toggled == "none") {
     pd.style.display = "block";
+    icon.src="./images/collapse-icon.png"
   } else {
     pd.style.display = "none";
+    icon.src="./images/expand-icon.png"
   }
 }

@@ -116,22 +116,12 @@ hr {
 
 .project-detail {
     margin-bottom:3em;
-    display:none;
+    display:block;
 }
 
 .project-detail-divider {
-    margin-top:1em;
     height: 1px;
     background-color: #bbbbbb;
-}
-
-.project-toggle {
-    float: right;
-    margin: 0 auto;
-    height: 100%;
-    top: 50%;
-    transform: translateY(50%);
-    color: $panel-color;
 }
 
 .panel-item {
@@ -140,22 +130,27 @@ hr {
 
 .project-header {
     text-decoration: none;
-    margin-bottom:0;
     float:left;
+    font-weight: bolder;
+    margin:0 auto;
 }
 
 .project-header:hover {
     text-decoration: underline;
 }
 
-.project-detail-icon {
-    margin-right:0.25em;
-    float:left;
+.project-toggle-button {
     top:50%;
-    transform:translateY(20%);
-    position:relative;
-    width:1.4em;
-    height:1.4em;
+    transform:translateY(50%);
+    float:right;
+}
+
+.project-header-container {
+    width:100%;
+    cursor:pointer;
+    overflow:auto;
+    margin:0.5em auto;
+    padding:0.5em 0;
 }
 
 /* Video */
@@ -195,6 +190,9 @@ hr {
     h3 {
         font-size: 20px;
     }
+    p {
+        font-size:20px;
+    }
 }
 
 @media (max-width: 500px) {
@@ -226,6 +224,9 @@ hr {
     }
     h3 {
         font-size: 16px;
+    }
+    p {
+        font-size:16px;
     }
 }
 
