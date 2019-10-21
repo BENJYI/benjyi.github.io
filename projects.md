@@ -3,8 +3,13 @@ layout: default
 title: "Projects"
 ---
 <div class="project-header-container" onclick="toggleProjectDetails(this, 1);">
-  <h3 class="project-header">Gemini, Personal Project</h3>
-  <img id="project-toggle-button-1" class="project-toggle-button" style="width:24px" src="./images/collapse-icon.png"/>
+  <div style="width:90%;float:left">
+    <div class="project-header-top">Gemini</div>
+    <div class="project-header-bottom">PERSONAL PROJECT</div>
+  </div>
+  <div style="width:10%;float:left">
+    <img id="project-toggle-button-1" class="project-toggle-button" style="width:24px" src="./images/collapse-icon.png"/>
+  </div>
 </div>
 
 <div class="project-detail" id="project-detail-1">
@@ -75,8 +80,13 @@ title: "Projects"
 <div class="project-detail-divider"></div>
 
 <div class="project-header-container" onclick="toggleProjectDetails(this, 2);">
-  <h3 class="project-header">JPMorgan Chase, Code For Good, Hackathon</h3>
-  <img id="project-toggle-button-2" class="project-toggle-button" style="width:24px" src="./images/collapse-icon.png"/>
+  <div style="width:90%;float:left">
+    <div class="project-header-top">JPMorgan Chase, Code For Good</div>
+    <div class="project-header-bottom">HACKATHON</div>
+  </div>
+  <div style="width:10%;float:left">
+    <img id="project-toggle-button-2" class="project-toggle-button" style="width:24px" src="./images/collapse-icon.png"/>
+  </div>
 </div>
 
 <div class="project-detail" id="project-detail-2">
@@ -96,8 +106,13 @@ title: "Projects"
 <div class="project-detail-divider"></div>
 
 <div class="project-header-container" onclick="toggleProjectDetails(this, 3);">
-  <h3 class="project-header">CISC 3320, Operating Systems, Group Project</h3>
-  <img id="project-toggle-button-3" class="project-toggle-button" style="width:24px" src="./images/collapse-icon.png"/>
+  <div style="width:90%;float:left">
+    <div class="project-header-top">CISC 3320, Operating Systems</div>
+    <div class="project-header-bottom">GROUP PROJECT</div>
+  </div>
+  <div style="width:10%;float:left">
+    <img id="project-toggle-button-3" class="project-toggle-button" style="width:24px" src="./images/collapse-icon.png"/>
+  </div>
 </div>
 
 <div class="project-detail" id="project-detail-3">
@@ -112,9 +127,14 @@ title: "Projects"
 
 <div class="project-detail-divider"></div>
 
-<div class="project-header-container" onclick="toggleProjectDetails(this, 4);">
-  <h3 class="project-header">CISC 3171, Software Engineering, Group Project</h3>
-  <img id="project-toggle-button-4" class="project-toggle-button" style="width:24px" src="./images/collapse-icon.png"/>
+<div class="project-header-container" onclick="toggleProjectDetails(this, 4)  ;">
+  <div style="width:90%;float:left">
+    <div class="project-header-top">CISC 3171, Software Engineering</div>
+    <div class="project-header-bottom">GROUP PROJECT</div>
+  </div>
+  <div style="width:10%;float:left">
+    <img id="project-toggle-button-4" class="project-toggle-button" style="width:24px" src="./images/collapse-icon.png"/>
+  </div>
 </div>
 
 <div class="project-detail" id="project-detail-4">

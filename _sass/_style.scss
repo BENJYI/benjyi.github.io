@@ -141,7 +141,7 @@ hr {
 
 .project-toggle-button {
     top:50%;
-    transform:translateY(50%);
+    transform:translateY(35%);
     float:right;
 }
 
@@ -151,6 +151,21 @@ hr {
     overflow:auto;
     margin:0.5em auto;
     padding:0.5em 0;
+}
+
+.project-header-top {
+    line-height:24px;
+    font-size:24px;
+}
+
+.project-header-bottom { 
+    line-height: 20px;
+    font-size: 16px;
+    padding: 4px;
+    border-radius: 4px;
+    display: inline-block;
+    background-color: #dedede;
+    color: $panel-color;
 }
 
 /* Video */
@@ -227,6 +242,16 @@ hr {
     }
     p {
         font-size:16px;
+    }
+    .project-header-top {
+        line-height:20px;
+        font-size:20px
+    }
+    
+    .project-header-bottom { 
+        line-height:16px;
+        font-size:12px;
+        transform:translateY(-8px);
     }
 }
 
