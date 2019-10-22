@@ -11,6 +11,20 @@ I am an undergraduate at Brooklyn College and expect to graduate with a B.S. in 
 
 Though sitting down at a cafe and working on a program is something I really enjoy doing, a big part of why I like to program is that it allows me to fulfill a desire to create and innovate. My goal as a software engineer is to solve problems for a larger purpose while enjoying the luxury of doing something I love.
 
-In the few weeks as a research intern at University of Massachusetts Lowell, I was able to have a peek at various security vulnerabilities and the several solutions the research team was able to conceive. I had a chance to debug a scrambled Android keyboard which protected users from attacks using video recordings which recorded login credentials from afar. I was also able to test a Bluetooth hijacking project which traced the trajectory of an unencrypted Bluetooth mouse to record a graphical user password.
+## Relevant Courses
+* Data Structures
+* Algorithms
+* Operating Systems
+* Computer Architecture
+* Linear Algebra
 
-I hope to join a team where I can contribute directly to these solutions and to be able to learn as much as possible as a software engineer.
+## Current Courses at Brooklyn College (Spring 2019)
+* CISC 3415 - Principles of Robotics
+* CISC 3410 - Artificial Intelligence
+* CISC 3810 - Database Systems
+* CISC 3140 - Design & Implementation of Web Applications
+* CISC 3142 - Programming Paradigms in C++
+
+## Previous Experience as Research Intern (REU)
+
+In the few weeks as a research intern at University of Massachusetts Lowell, I was able to have a peek at various security vulnerabilities and the several solutions the research team was able to conceive. I had a chance to debug a scrambled Android keyboard which protected users from attacks using video recordings which recorded login credentials from afar. I was also able to test a Bluetooth hijacking project which traced the trajectory of an unencrypted Bluetooth mouse to record a graphical user password.
