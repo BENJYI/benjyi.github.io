@@ -23,11 +23,15 @@ title: "Projects"
       <img style="margin-right:0.25em;top:50%;transform:translateY(20%);position:relative;width:1.4em;height:1.4em;" src="./images/github-logo.png"/>
     </a>
   </div>
+  
   <p>This game was inspired by a close friend who introduced me to this game while playing a game of Mahjong. Gemini is a puzzle game where the goal is to match two identical pieces per move until the board is emptied. The basic gameplay is as follows:</p>
-  <p>1. Choose a tile.</p>
-  <p>2. Move the tile and all leading tiles towards an empty area. We can also choose not to move at all.</p>
-  <p>3. At the end of the move, if the selected tile can "see" an identical piece in any of four directions, then it can match with that piece. "Seeing" means no tiles exists between the selected tile and its twin. This means any two adjacent tiles that are identical can be matched.</p>
-  <p>4. If no identical tiles are visible, then the movement is invalid and is reverted.</p>
+  <div style="width:80%;display:inline-block;padding:8px; margin:0 10%;border:solid 1px #2b2b2b;">
+  <p style="line-height:16px;font-size: 16px">1. Choose a tile.</p>
+  <p style="line-height:16px;font-size: 16px">2. Move the tile and all leading tiles towards an empty area. We can also choose not to move at all.</p>
+  <p style="line-height:16px;font-size: 16px">3. At the end of the move, if the selected tile can "see" an identical piece in any of four directions, then it can match with that piece. "Seeing" means no tiles exists between the selected tile and its twin. This means any two adjacent tiles that are identical can be matched.</p>
+  <p style="line-height:16px;font-size: 16px;">4. If no identical tiles are visible, then the movement is invalid and is reverted.</p>
+
+  </div>
 
   <div style="text-align:center">
     <div style="display:inline-block">
@@ -73,8 +77,8 @@ title: "Projects"
     </div>
   </div>
 
-  <div style="width:100%;text-align:center">
-    <h3 style="text-decoration:underline">Demo - iOS (Simulator)</h3>
+  <div style="width:80%;padding:0 10%;text-align:center">
+    <h3 style="margin-top:0;text-decoration:underline">Demo - iOS (Simulator)</h3>
     <div class="demo-video">
       <object data="https://www.youtube.com/embed/e-fX8VSi2xM"></object>
     </div>
